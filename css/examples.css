@@ -1,0 +1,56 @@
+#description, #expected, #content, #index {
+  background-color: #eee;
+  border: 1px solid #333;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 0 #aaa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 20px;
+  padding: 5px;
+  padding-top: 15px;
+  position: relative;
+}
+
+#description:before, #expected:before, #content:before, #index:before {
+  background-color: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  content: "Description:";
+  font-weight: bold;
+  padding: 5px;
+  position: absolute;
+  top: -15px;
+}
+
+#expected:before {
+  content: "Expected Behaviour:";
+}
+
+#content:before {
+  content: "Content:";
+}
+
+#index:before {
+  content: "Examples:"
+}
+
+#example_header {
+  background-color: #EDE275;
+  border-bottom: 3px solid #000;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#example_header a {
+  float: right;
+}
+
+#example_header fieldset {
+  border: 1px solid #333;
+  border-radius: 5px;
+  float: left;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

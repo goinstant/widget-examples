@@ -1,0 +1,15 @@
+{
+  "name": "widget-examples",
+  "version": "0.0.1",
+  "description": "Common code for the GoInstant widget examples",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goinstant/widget-examples.git"
+  },
+  "author": "",
+  "license": "",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/goinstant/widget-examples/issues"
+  }
+}
