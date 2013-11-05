@@ -37,7 +37,7 @@ Example.prototype.load = function() {
       // Exposing room for console testing
       window.exampleRoom = room;
 
-      self._test(room);
+      self._test(platform, room);
     });
   });
 
