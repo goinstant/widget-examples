@@ -1,3 +1,5 @@
+(function() {
+
 var goinstant = window.goinstant;
 var $ = window.$;
 var _ = window._;
@@ -46,3 +48,6 @@ Example.prototype.load = function() {
     $('<link />').attr('rel', 'stylesheet').attr('href', url).appendTo('head');
   });
 };
+
+window.Example = Example;
+})();
