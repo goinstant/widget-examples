@@ -24,14 +24,14 @@ Example.prototype.load = function() {
   common.append(header);
 
   var url = config.connectUrl;
-  var platform = new goinstant.Platform(url);
+  var connection = new goinstant.Connection(url);
 
   var self = this;
 
-  platform.connect(function(err) {
+  connection.connect(function(err) {
     if (err) throw err;
 
-    var room = platform.room(config.room);
+    var room = connection.room(config.room);
 
     room.join(function (err) {
       if (err) throw err;
